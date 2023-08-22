@@ -1,9 +1,24 @@
-## Get all KoG maps data
+# DDNet Utils
 
-To get console output:
+### Get a list of all KoG maps data
 
-    python kog-maps.py
+Usage
 
-To get json file:
+```bash
+python kog-maps.py
 
-    python kog-maps.py --json
+# for json output
+python kog-maps.py --json
+```
+
+Example Map
+
+```json
+{
+  "name": "ACID",
+  "star": 3,
+  "category": "Insane",
+  "points": 19,
+  "creator": "RaiNy"
+}
+```
